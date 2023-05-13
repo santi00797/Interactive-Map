@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailored Travel App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="banner">Tailored Travel App</div>
+  <div class="business-type">
+    <select id="businessType" onchange="getNearbyLocations()">
+      <option value="">Select Business Type</option>
+      <option value="restaurant">Restaurant</option>
+      <option value="cafe">Café</option>
+      <option value="bar">Bar</option>
+      <!-- Add more business types as needed -->
+    </select>
+  </div>
+  <div class="content">
+    <div class="map-container"></div>
+  </div>
+</body>
+
+</html>
